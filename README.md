@@ -6,7 +6,7 @@
 > **sudo docker run -it -d --name <container_name> -p 8001:8000 <image_name>:latest**
 * After running above command application will run 
 * Go to the postman and run below url as **get** method
-> http://127.0.0.1:8000/api/getroute/
+> http://127.0.0.1:8001/api/getroute/
 * Pass list of locations as input in the body as shown below
 > **{
     "list_cord":[
